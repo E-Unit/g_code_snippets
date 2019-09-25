@@ -1,3 +1,4 @@
 *.json
 
-!gcode*.log
+!gcode*.json
+!gcode*.code-snippets

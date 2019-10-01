@@ -1068,6 +1068,66 @@
 		"description": "FACE FLAT BOTTOM HOLE MACRO SUB"
 	},
 
+	"CARB FLAT BOTTOM HOLE MACRO": {
+		"prefix": "FCFBHM",
+		"body": [
+			"( ${1:CARB SOFT START FLAT BOTTOM HOLES MACRO} )",
+			"#141= $2 (H # OF INSERT DRILL)",
+			"#188= ${3:88} (8=REGULAR COOLANT, 88= COOLANT THRU)",
+			"#144= ${4:0.} (DISTANCE ABOVE OR BELOW ZERO)",
+			"#142= $5 (BOLT CIRCLE OF HOLES)",
+			"#22= $6 (STARTING ANGLE OF HOLES)",
+			"#7= $7 (NUMBER OF HOLES)",
+			"#8= $8 (DISTANCE APART OF HOLES)",
+			"#128= $9 (DEPTH OF HOLES FROM HOLE SURFACE)",
+			"#130= $10 (FEED OF DRILL !!PROGRAM WILL DRILL .040 DEEP 4 TIMES SLOWER!!)",
+			"#131= $11 (RPM OF DRILL)",
+			"#166= ${12:[ 90 / #131 ]} (DWELL TIME AT BOTTOM OF HOLE IF NEEDED)",
+			"(CALL UP LOOP) M97 P246",
+			"(TURN OFF ROTATION) G69 ${13:M05}",
+			"${14:M89}",
+			"$0"
+		],
+		"description": "CARB SOFT START FLAT BOTTOM HOLE MACRO"
+	},
+
+	"CARB FLAT BOTTOM HOLE MACRO SUB": {
+		"prefix": "FCFBHM_SUB",
+		"body": [
+			"(FLT BTM SOFT START HOLES SUB PROGRAM)",
+			"N246 (SOME NUMBER OF HOLES)",
+			"T #[ 500 + #141 ] M06",
+			"M97 P247 L#7",
+			"G69",
+			"M99",
+			"",
+			"N247 (CALL UP SOFT START HOLES)",
+			"G68 G00 G90 G54 X0. Y0. R [ #22 + 0. ]",
+			"M97 P45687",
+			"#22= [ #22 + #8 ]",
+			"M99",
+			"",
+			"N45687",
+			"(DRILL SOFT START HOLES)",
+			"G00 G90 X [ #142 / 2 ] Y0.",
+			"G43 H#141 Z#100 M#188",
+			"S[#131/3] M42",
+			"M03",
+			"Z [ #144 + 0.1 ]",
+			"G01 Z [ #144 - 0.020 ] F [ #130 / 2.5 ]",
+			"G00 Z [ #144 - 0.010 ]",
+			"S#131 M42",
+			"G04 P0.1",
+			"G01 Z [ #144 - #128 ] F#130",
+			"G04 P#166",
+			"G00 Z#100",
+			"M99",
+			"(END OF SOFT START HOLES SUB PROGRAM)",
+			"$0"
+		],
+		"description": "CARB FLAT BOTTOM HOLE MACRO SUB"
+	},
+
 	"I.D. PERP SLOTS": {
 		"prefix": "IDPERPSLOT",
 		"body": [

@@ -169,5 +169,50 @@
             "$0"
         ],
         "description": "316SS FACE 1/8 BSPF TAP OP WITH Z-HEIGHT OFFSET"
+    },
+
+    "G1/8 THREAD MILLING": {
+        "prefix": "F.125BSPFTM_CALLUP",
+        "body": [
+            "${1:( PRE-MILL .343 TAP HOLE )}",
+            "(G1/8 THREAD MILLING)",
+            "#30= [ ${1:B.C.D.} / 2 ] (X POS)",
+            "#31= ${2:0.} (Y POS)",
+            "#32= ${3:0.} (Z POS)",
+            "M97 P1250",
+            "$0"
+        ],
+        "description": "G1/8 THREAD MILLING CALL UP"
+    },
+
+    "G1/8 THREAD MILLING SUB": {
+        "prefix": "F.125BSPFTM_SUB",
+        "body": [
+            "N1250 (TMINRH CLIMB Cycles= 1)",
+            "T#602 M06 (T#602 H102 .323 G1/8 VARDEX THREAD MILL)",
+            "(Tool cutting diameter = 0.3228 inch - HAAS Controller.)",
+            "G90 G00 G54 X#30 Y#31",
+            "G43 H102 Z [ #32 + 2. ] M88",
+            "S3667 M03",
+            "Z#32",
+            "G91 G00 X0. Y0. Z-0.574",
+            "G01 G41 D102 X0.0143 Y-0.1737 Z0. F0.92",
+            "G91 G03 X0.1737 Y0.1737 Z0.004 R0.1737 F0.92",
+            "G91 G03 X0. Y0. Z0.0357 I-0.1881 J0. F3.06",
+            "G91 G03 X-0.1737 Y0.1737 Z0.004 R0.1737",
+            "G00 G40 X-0.0143 Y-0.1737 Z0.",
+            "G91 G00 X0. Y0. Z-0.0431",
+            "G01 G41 D102 X0.0179 Y-0.1736 Z0. F0.92",
+            "G91 G03 X0.1736 Y0.1736 Z0.0034 R0.1736 F0.92",
+            "G91 G03 X0. Y0. Z0.0357 I-0.1915 J0. F3.06",
+            "G91 G03 X-0.1736 Y0.1736 Z0.0034 R0.1736",
+            "G00 G40 X-0.0179 Y-0.1736 Z0.",
+            "G90 G00 Z [ #32 + 2. ] M05",
+            "M89",
+            "G28 G91 Z0.",
+            "M99 ",
+            "$0"
+        ],
+        "description": "G1/8 THREAD MILLING SUB"
     }
 }

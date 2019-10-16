@@ -173,6 +173,7 @@
 
     "G1/8 THREAD MILLING": {
         "prefix": "F.125BSPFTM_CALLUP",
+        "scope": "NC-Gcode, gcode",
         "body": [
             "${1:( PRE-MILL .343 TAP HOLE )}",
             "(G1/8 THREAD MILLING)",
@@ -187,6 +188,7 @@
 
     "G1/8 THREAD MILLING SUB": {
         "prefix": "F.125BSPFTM_SUB",
+        "scope": "NC-Gcode, gcode",
         "body": [
             "N1250 (TMINRH CLIMB Cycles= 1)",
             "T#602 M06 (T#602 H102 .323 G1/8 VARDEX THREAD MILL)",

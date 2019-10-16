@@ -1,7 +1,7 @@
 {
     "RAD .059 DRILL": {
         "prefix": "RSD.059DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .059 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -30,7 +30,7 @@
 
     "RAD .059 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.059DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .059 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -59,7 +59,7 @@
 
     "RAD .073 DRILL": {
         "prefix": "RSD.073DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .073 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -88,7 +88,7 @@
 
     "RAD .073 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.073DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .073 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -117,7 +117,7 @@
     
     "RAD .078 DRILL": {
 		"prefix": "RSD.078DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .078 HOLES)",
 			"T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -146,7 +146,7 @@
 
 	"RAD .078 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.078DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .078 HOLES)",
 			"T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -175,7 +175,7 @@
 
 	"RAD .086 DRILL": {
 		"prefix": "RSD.086DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .086 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -204,7 +204,7 @@
 
 	"RAD .086 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.086DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .086 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -233,7 +233,7 @@
     
 	"RAD .089 DRILL": {
 		"prefix": "RSD.089DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .089 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -262,7 +262,7 @@
 
 	"RAD .089 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.089DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .089 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -291,7 +291,7 @@
 		
 	"RAD .096 DRILL": {
 		"prefix": "RSD.096DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .096 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -320,7 +320,7 @@
 
 	"RAD .096 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.096DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .096 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -349,7 +349,7 @@
 
 	"RAD .098 DRILL": {
 		"prefix": "RSD.098DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .098 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -378,7 +378,7 @@
 
 	"RAD .098 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.098DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .098 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -407,7 +407,7 @@
 
     "RAD .106 DRILL": {
         "prefix": "RSD.106DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .106 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
@@ -436,7 +436,7 @@
 
     "RAD .106 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.106DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .106 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
@@ -465,7 +465,7 @@
 
     "RAD .113 DRILL": {
         "prefix": "RSD.113DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .113 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
@@ -494,7 +494,7 @@
 
     "RAD .113 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.113DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .113 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
@@ -523,7 +523,7 @@
 
 	"RAD .120 DRILL": {
 		"prefix": "RSD.120DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .120 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -552,7 +552,7 @@
 
 	"RAD .120 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.120DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .120 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -581,7 +581,7 @@
 
 	"RAD .125 DRILL": {
 		"prefix": "RSD.125DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .125 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -610,7 +610,7 @@
 
 	"RAD .125 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.125DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .125 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -639,7 +639,7 @@
 	
 	"RAD .128 DRILL": {
 		"prefix": "RSD.128DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .128 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -668,7 +668,7 @@
 	
 	"RAD .128 DRILL WITH Z-HEIGH OFFSET": {
 		"prefix": "RSD.128DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .128 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -697,7 +697,7 @@
 
 	"RAD .136 DRILL": {
 		"prefix": "RSD.136DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .136 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -726,7 +726,7 @@
 
 	"RAD .136 DRILL WITH Z-HEIGH OFFSET": {
 		"prefix": "RSD.136DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .136 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -755,7 +755,7 @@
 
     "RAD .141 DRILL": {
         "prefix": "RSD.141DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .141 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -784,7 +784,7 @@
 
     "RAD .141 DRILL WITH Z-HEIGH OFFSET": {
         "prefix": "RSD.141DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .141 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -813,7 +813,7 @@
 
 	"RAD .149 DRILL": {
 		"prefix": "RSD.149DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .149 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -842,7 +842,7 @@
 
 	"RAD .149 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.149DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .149 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -871,7 +871,7 @@
 
     "RAD .152 DRILL": {
         "prefix": "RSD.152DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .152 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -900,7 +900,7 @@
 
     "RAD .152 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.152DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .149 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -929,7 +929,7 @@
 
 	"RAD .156 DRILL": {
 		"prefix": "RSD.156DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .156 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -958,7 +958,7 @@
 
 	"RAD .156 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.156DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .156 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -987,7 +987,7 @@
 
 	"RAD .159 DRILL": {
 		"prefix": "RSD.159DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .159 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1016,7 +1016,7 @@
 
 	"RAD .159 DRILL WITH Z-HEIGHT OFFEST": {
 		"prefix": "RSD.159DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .159 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1045,7 +1045,7 @@
 
     "RAD .161 DRILL": {
         "prefix": "RSD.161DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .161 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1074,7 +1074,7 @@
 
     "RAD .161 DRILL WITH Z-HEIGHT OFFEST": {
         "prefix": "RSD.161DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .161 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1103,7 +1103,7 @@
 
     "RAD .169 DRILL": {
         "prefix": "RSD.169DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .169 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1132,7 +1132,7 @@
 
     "RAD .169 DRILL WITH Z-HEIGHT OFFEST": {
         "prefix": "RSD.169DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .169 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1161,7 +1161,7 @@
 
 	"RAD .171 DRILL": {
 		"prefix": "RSD.171DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .171 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1190,7 +1190,7 @@
 
 	"RAD .171 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.171DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .171 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1219,7 +1219,7 @@
 
 	"RAD .177 DRILL": {
 		"prefix": "RSD.177DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .177 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1248,7 +1248,7 @@
 
 	"RAD .177 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.177DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .177 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1277,7 +1277,7 @@
 
 	"RAD .187 DRILL": {
 		"prefix": "RSD.187DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .187 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1306,7 +1306,7 @@
 
 	"RAD .187 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.187DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .187 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1335,7 +1335,7 @@
 
 	"RAD .196 DRILL": {
 		"prefix": "RSD.196DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .196 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1364,7 +1364,7 @@
 
 	"RAD .196 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.196DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .196 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1393,7 +1393,7 @@
 
 	"RAD .204 DRILL": {
 		"prefix": "RSD.204DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .204 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1422,7 +1422,7 @@
 
 	"RAD .204 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.204DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .204 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1451,7 +1451,7 @@
 
 	"RAD .213 DRILL": {
 		"prefix": "RSD.213DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .213 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1480,7 +1480,7 @@
 
 	"RAD .213 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.213DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .213 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1510,7 +1510,7 @@
 
 	"RAD .218 DRILL": {
 		"prefix": "RSD.218DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .218 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1539,7 +1539,7 @@
 
 	"RAD .218 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.218DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .218 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1568,7 +1568,7 @@
 
     "RAD .221 DRILL": {
         "prefix": "RSD.221DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .221 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1597,7 +1597,7 @@
 
     "RAD .221 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.221DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .221 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1626,7 +1626,7 @@
 
 	"RAD .224 DRILL": {
 		"prefix": "RSD.224DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .224 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1655,7 +1655,7 @@
 
 	"RAD .224 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.224DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .224 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1684,7 +1684,7 @@
 
 	"RAD .234 DRILL": {
 		"prefix": "RSD.234DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .234 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1713,7 +1713,7 @@
 
 	"RAD .234 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.234DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .234 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1742,7 +1742,7 @@
 
 	"RAD .250 DRILL": {
 		"prefix": "RSD.250DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .250 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1771,7 +1771,7 @@
 
 	"RAD .250 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.250DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .250 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1800,7 +1800,7 @@
 
 	"RAD .257 DRILL": {
 		"prefix": "RSD.257DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .257 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1829,7 +1829,7 @@
 
 	"RAD .257 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.257DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .257 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1858,7 +1858,7 @@
 
 	"RAD .265 DRILL": {
 		"prefix": "RSD.265DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .265 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1887,7 +1887,7 @@
 
 	"RAD .265 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.265DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .265 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1916,7 +1916,7 @@
 
 	"RAD .272 DRILL": {
 		"prefix": "RSD.272DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .272 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1945,7 +1945,7 @@
 
 	"RAD .272 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.272DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .272 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1974,7 +1974,7 @@
 
     "RAD .276 DRILL": {
         "prefix": "RSD.276DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .276 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2003,7 +2003,7 @@
 
     "RAD .276 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.276DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .276 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2032,7 +2032,7 @@
 
 	"RAD .281 DRILL": {
 		"prefix": "RSD.281DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .281 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2061,7 +2061,7 @@
 
 	"RAD .281 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.281DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .281 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2090,7 +2090,7 @@
 
     "RAD .287 DRILL": {
         "prefix": "RSD.287DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .287 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2119,7 +2119,7 @@
 
     "RAD .287 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.287DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .287 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2148,7 +2148,7 @@
 
     "RAD .290 DRILL": {
         "prefix": "RSD.290DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .290 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2177,7 +2177,7 @@
 
     "RAD .290 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.290DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .290 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2206,7 +2206,7 @@
 
 	"RAD .296 DRILL": {
 		"prefix": "RSD.296DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .296 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2235,7 +2235,7 @@
 
 	"RAD .296 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.296DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .296 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2264,7 +2264,7 @@
 
     "RAD .302 DRILL": {
         "prefix": "RSD.302DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .302 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2293,7 +2293,7 @@
 
     "RAD .302 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.302DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .302 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2322,7 +2322,7 @@
 
 	"RAD .312 DRILL": {
 		"prefix": "RSD.312DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .312 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2351,7 +2351,7 @@
 
 	"RAD .312 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.312DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .312 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2380,7 +2380,7 @@
 
 	"RAD .323 DRILL": {
 		"prefix": "RSD.323DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .323 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2409,7 +2409,7 @@
 
 	"RAD .323 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.323DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .323 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2438,7 +2438,7 @@
 
 	"RAD .332 DRILL": {
 		"prefix": "RSD.332DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .332 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2467,7 +2467,7 @@
 
 	"RAD .332 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.332DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .332 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2496,7 +2496,7 @@
 
     "RAD .339 DRILL": {
         "prefix": "RSD.339DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .339 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2525,7 +2525,7 @@
 
     "RAD .339 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.339DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .339 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2554,7 +2554,7 @@
 
 	"RAD .346 DRILL": {
 		"prefix": "RSD.346DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .346 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2583,7 +2583,7 @@
 
 	"RAD .346 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.346DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .346 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2612,7 +2612,7 @@
 
 	"RAD .354 DRILL": {
 		"prefix": "RSD.354DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .354 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2641,7 +2641,7 @@
 
 	"RAD .354 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.354DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .354 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2670,7 +2670,7 @@
 
 	"RAD .368 DRILL": {
 		"prefix": "RSD.368DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .368 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2699,7 +2699,7 @@
 
 	"RAD .368 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.368DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .368 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2728,7 +2728,7 @@
 
 	"RAD .375 DRILL": {
 		"prefix": "RSD.375DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .375 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2757,7 +2757,7 @@
 
 	"RAD .375 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.375DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .375 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2786,7 +2786,7 @@
 
     "RAD .386 DRILL": {
         "prefix": "RSD.386DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .375 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2815,7 +2815,7 @@
 
     "RAD .386 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.386DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .375 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2844,7 +2844,7 @@
 
 	"RAD .391 DRILL": {
 		"prefix": "RSD.391DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .391 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2873,7 +2873,7 @@
 
 	"RAD .391 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.391DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .391 HOLES)",
 		"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2902,7 +2902,7 @@
 
     "RAD .394 DRILL": {
         "prefix": "RSD.394DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .391 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2931,7 +2931,7 @@
 
     "RAD .394 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.394DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .391 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2960,7 +2960,7 @@
 
 	"RAD .406 DRILL": {
 		"prefix": "RSD.406DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .406 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2989,7 +2989,7 @@
 
 	"RAD .406 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.406DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .406 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3018,7 +3018,7 @@
 
 	"RAD .422 DRILL": {
 		"prefix": "RSD.422DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .422 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3047,7 +3047,7 @@
 
 	"RAD .422 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.422DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .422 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3076,7 +3076,7 @@
 
     "RAD .433 DRILL": {
         "prefix": "RSD.433DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .433 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3105,7 +3105,7 @@
 
     "RAD .433 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.433DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .433 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3134,7 +3134,7 @@
 
 	"RAD .437 DRILL": {
 		"prefix": "RSD.437DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .437 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3163,7 +3163,7 @@
 
 	"RAD .437 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.437DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .437 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3192,7 +3192,7 @@
 
     "RAD .453 DRILL": {
         "prefix": "RSD.453DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .453 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3221,7 +3221,7 @@
 
     "RAD .453 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.453DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .453 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3250,7 +3250,7 @@
 
     "RAD .4646 DRILL": {
         "prefix": "RSD.4646DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .4646 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3279,7 +3279,7 @@
 
     "RAD .4646 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD.4646DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
             "(C-DRILL .4646 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3308,7 +3308,7 @@
 
 	"RAD .472 DRILL": {
 		"prefix": "RSD.472DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .472 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3337,7 +3337,7 @@
 
 	"RAD .472 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.472DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .472 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3366,7 +3366,7 @@
 
 	"RAD .500 DRILL": {
 		"prefix": "RSD.500DRILL",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .500 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3395,7 +3395,7 @@
 
 	"RAD .500 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "RSD.500DRILLW",
-		"scope": "gcode",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .500 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",

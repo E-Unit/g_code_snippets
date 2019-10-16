@@ -1,7 +1,8 @@
 {
     "FACE HAST-C .059 DRILL": {
         "prefix": "FHC.059DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .059 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -29,7 +30,8 @@
 
     "FACE HAST-C .059 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.059DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .059 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -57,7 +59,8 @@
 
     "FACE HAST-C .073 DRILL": {
         "prefix": "FHC.073DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .073 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -85,7 +88,8 @@
 
     "FACE HAST-C .073 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.073DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .073 HOLES)",
             "T#667 M06 (T#667 H167 #1 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -113,6 +117,7 @@
     
     "FACE HAST-C .078 DRILL": {
 		"prefix": "FHC.078DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .078 HOLES)",
 			"T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -141,6 +146,7 @@
 
 	"FACE HAST-C .078 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.078DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .078 HOLES)",
 			"T#667 M06 (T#667 H167 #1 C-DRILL)",
@@ -169,6 +175,7 @@
 
 	"FACE HAST-C .086 DRILL": {
 		"prefix": "FHC.086DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .086 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -197,6 +204,7 @@
 
 	"FACE HAST-C .086 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.086DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .086 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -225,6 +233,7 @@
     
 	"FACE HAST-C .089 DRILL": {
 		"prefix": "FHC.089DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .089 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -253,6 +262,7 @@
 
 	"FACE HAST-C .089 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.089DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .089 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -281,6 +291,7 @@
 		
 	"FACE HAST-C .096 DRILL": {
 		"prefix": "FHC.096DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .096 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -309,6 +320,7 @@
 
 	"FACE HAST-C .096 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.096DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .096 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -337,6 +349,7 @@
 
 	"FACE HAST-C .098 DRILL": {
 		"prefix": "FHC.098DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .098 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -365,6 +378,7 @@
 
 	"FACE HAST-C .098 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.098DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .098 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -393,7 +407,8 @@
 
     "FACE HAST-C .106 DRILL": {
         "prefix": "FHC.106DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .106 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -421,7 +436,8 @@
 
     "FACE HAST-C .106 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.106DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .106 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -449,7 +465,8 @@
 
     "FACE HAST-C .113 DRILL": {
         "prefix": "FHC.113DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .113 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -477,7 +494,8 @@
 
     "FACE HAST-C .113 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.113DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .113 HOLES)",
             "T2 M06 (T2 H152 #2 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -505,6 +523,7 @@
 
 	"FACE HAST-C .120 DRILL": {
 		"prefix": "FHC.120DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .120 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -533,6 +552,7 @@
 
 	"FACE HAST-C .120 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.120DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .120 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -561,6 +581,7 @@
 
 	"FACE HAST-C .125 DRILL": {
 		"prefix": "FHC.125DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .125 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -589,6 +610,7 @@
 
 	"FACE HAST-C .125 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.125DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .125 HOLE)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -617,6 +639,7 @@
 	
 	"FACE HAST-C .128 DRILL": {
 		"prefix": "FHC.128DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .128 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -645,6 +668,7 @@
 	
 	"FACE HAST-C .128 DRILL WITH Z-HEIGH OFFSET": {
 		"prefix": "FHC.128DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .128 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -673,6 +697,7 @@
 
 	"FACE HAST-C .136 DRILL": {
 		"prefix": "FHC.136DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .136 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -701,6 +726,7 @@
 
 	"FACE HAST-C .136 DRILL WITH Z-HEIGH OFFSET": {
 		"prefix": "FHC.136DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .136 HOLES)",
 			"T2 M06 (T2 H152 #2 C-DRILL)",
@@ -729,7 +755,8 @@
 
     "FACE HAST-C .141 DRILL": {
         "prefix": "FHC.141DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .141 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -757,7 +784,8 @@
 
     "FACE HAST-C .141 DRILL WITH Z-HEIGH OFFSET": {
         "prefix": "FHC.141DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .141 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -785,6 +813,7 @@
 
 	"FACE HAST-C .149 DRILL": {
 		"prefix": "FHC.149DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .149 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -813,6 +842,7 @@
 
 	"FACE HAST-C .149 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.149DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .149 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -841,7 +871,8 @@
 
     "FACE HAST-C .152 DRILL": {
         "prefix": "FHC.152DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .152 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -869,7 +900,8 @@
 
     "FACE HAST-C .152 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.152DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .149 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -897,6 +929,7 @@
 
 	"FACE HAST-C .156 DRILL": {
 		"prefix": "FHC.156DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .156 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -925,6 +958,7 @@
 
 	"FACE HAST-C .156 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.156DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .156 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -953,6 +987,7 @@
 
 	"FACE HAST-C .159 DRILL": {
 		"prefix": "FHC.159DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .159 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -981,6 +1016,7 @@
 
 	"FACE HAST-C .159 DRILL WITH Z-HEIGHT OFFEST": {
 		"prefix": "FHC.159DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .159 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1009,7 +1045,8 @@
 
     "FACE HAST-C .161 DRILL": {
         "prefix": "FHC.161DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .161 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1037,7 +1074,8 @@
 
     "FACE HAST-C .161 DRILL WITH Z-HEIGHT OFFEST": {
         "prefix": "FHC.161DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .161 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1065,7 +1103,8 @@
 
     "FACE HAST-C .169 DRILL": {
         "prefix": "FHC.169DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .169 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1093,7 +1132,8 @@
 
     "FACE HAST-C .169 DRILL WITH Z-HEIGHT OFFEST": {
         "prefix": "FHC.169DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .169 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1121,6 +1161,7 @@
 
 	"FACE HAST-C .171 DRILL": {
 		"prefix": "FHC.171DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .171 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1149,6 +1190,7 @@
 
 	"FACE HAST-C .171 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.171DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .171 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1177,6 +1219,7 @@
 
 	"FACE HAST-C .177 DRILL": {
 		"prefix": "FHC.177DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .177 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1205,6 +1248,7 @@
 
 	"FACE HAST-C .177 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.177DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .177 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1233,6 +1277,7 @@
 
 	"FACE HAST-C .187 DRILL": {
 		"prefix": "FHC.187DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .187 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1261,6 +1306,7 @@
 
 	"FACE HAST-C .187 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.187DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .187 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1289,6 +1335,7 @@
 
 	"FACE HAST-C .196 DRILL": {
 		"prefix": "FHC.196DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .196 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1317,6 +1364,7 @@
 
 	"FACE HAST-C .196 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.196DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .196 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1345,6 +1393,7 @@
 
 	"FACE HAST-C .204 DRILL": {
 		"prefix": "FHC.204DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .204 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1373,6 +1422,7 @@
 
 	"FACE HAST-C .204 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.204DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .204 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1401,6 +1451,7 @@
 
 	"FACE HAST-C .213 DRILL": {
 		"prefix": "FHC.213DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .213 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1429,6 +1480,7 @@
 
 	"FACE HAST-C .213 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.213DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .213 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1458,6 +1510,7 @@
 
 	"FACE HAST-C .218 DRILL": {
 		"prefix": "FHC.218DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .218 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1486,6 +1539,7 @@
 
 	"FACE HAST-C .218 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.218DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .218 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1514,7 +1568,8 @@
 
     "FACE HAST-C .221 DRILL": {
         "prefix": "FHC.221DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .221 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1542,7 +1597,8 @@
 
     "FACE HAST-C .221 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.221DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .221 HOLES)",
             "T3 M06 (T3 H03 #3 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1570,6 +1626,7 @@
 
 	"FACE HAST-C .224 DRILL": {
 		"prefix": "FHC.224DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .224 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1598,6 +1655,7 @@
 
 	"FACE HAST-C .224 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.224DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .224 HOLES)",
 			"T3 M06 (T3 H03 #3 C-DRILL)",
@@ -1626,6 +1684,7 @@
 
 	"FACE HAST-C .234 DRILL": {
 		"prefix": "FHC.234DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .234 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1654,6 +1713,7 @@
 
 	"FACE HAST-C .234 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.234DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .234 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1682,6 +1742,7 @@
 
 	"FACE HAST-C .250 DRILL": {
 		"prefix": "FHC.250DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .250 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1710,6 +1771,7 @@
 
 	"FACE HAST-C .250 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.250DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .250 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1738,6 +1800,7 @@
 
 	"FACE HAST-C .257 DRILL": {
 		"prefix": "FHC.257DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .257 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1766,6 +1829,7 @@
 
 	"FACE HAST-C .257 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.257DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .257 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1794,6 +1858,7 @@
 
 	"FACE HAST-C .265 DRILL": {
 		"prefix": "FHC.265DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .265 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1822,6 +1887,7 @@
 
 	"FACE HAST-C .265 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.265DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .265 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1850,6 +1916,7 @@
 
 	"FACE HAST-C .272 DRILL": {
 		"prefix": "FHC.272DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .272 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1878,6 +1945,7 @@
 
 	"FACE HAST-C .272 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.272DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .272 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1906,7 +1974,8 @@
 
     "FACE HAST-C .276 DRILL": {
         "prefix": "FHC.276DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .276 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1934,7 +2003,8 @@
 
     "FACE HAST-C .276 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.276DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .276 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -1962,6 +2032,7 @@
 
 	"FACE HAST-C .281 DRILL": {
 		"prefix": "FHC.281DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .281 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -1990,6 +2061,7 @@
 
 	"FACE HAST-C .281 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.281DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .281 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2018,7 +2090,8 @@
 
     "FACE HAST-C .287 DRILL": {
         "prefix": "FHC.287DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .287 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2046,7 +2119,8 @@
 
     "FACE HAST-C .287 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.287DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .287 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2074,7 +2148,8 @@
 
     "FACE HAST-C .290 DRILL": {
         "prefix": "FHC.290DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .290 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2102,7 +2177,8 @@
 
     "FACE HAST-C .290 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.290DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .290 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2130,6 +2206,7 @@
 
 	"FACE HAST-C .296 DRILL": {
 		"prefix": "FHC.296DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .296 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2158,6 +2235,7 @@
 
 	"FACE HAST-C .296 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.296DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .296 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2186,7 +2264,8 @@
 
     "FACE HAST-C .302 DRILL": {
         "prefix": "FHC.302DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .302 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2214,7 +2293,8 @@
 
     "FACE HAST-C .302 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.302DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .302 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2242,6 +2322,7 @@
 
 	"FACE HAST-C .312 DRILL": {
 		"prefix": "FHC.312DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .312 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2270,6 +2351,7 @@
 
 	"FACE HAST-C .312 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.312DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .312 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2298,6 +2380,7 @@
 
 	"FACE HAST-C .323 DRILL": {
 		"prefix": "FHC.323DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .323 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2326,6 +2409,7 @@
 
 	"FACE HAST-C .323 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.323DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .323 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2354,6 +2438,7 @@
 
 	"FACE HAST-C .332 DRILL": {
 		"prefix": "FHC.332DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .332 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2382,6 +2467,7 @@
 
 	"FACE HAST-C .332 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.332DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .332 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2410,7 +2496,8 @@
 
     "FACE HAST-C .339 DRILL": {
         "prefix": "FHC.339DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .339 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2438,7 +2525,8 @@
 
     "FACE HAST-C .339 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.339DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .339 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2466,6 +2554,7 @@
 
 	"FACE HAST-C .346 DRILL": {
 		"prefix": "FHC.346DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .346 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2494,6 +2583,7 @@
 
 	"FACE HAST-C .346 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.346DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .346 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2522,6 +2612,7 @@
 
 	"FACE HAST-C .354 DRILL": {
 		"prefix": "FHC.354DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .354 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2550,6 +2641,7 @@
 
 	"FACE HAST-C .354 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.354DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .354 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2578,6 +2670,7 @@
 
 	"FACE HAST-C .368 DRILL": {
 		"prefix": "FHC.368DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .368 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2606,6 +2699,7 @@
 
 	"FACE HAST-C .368 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.368DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .368 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2634,6 +2728,7 @@
 
 	"FACE HAST-C .375 DRILL": {
 		"prefix": "FHC.375DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .375 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2662,6 +2757,7 @@
 
 	"FACE HAST-C .375 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.375DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .375 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2690,7 +2786,8 @@
 
     "FACE HAST-C .386 DRILL": {
         "prefix": "FHC.386DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .375 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2718,7 +2815,8 @@
 
     "FACE HAST-C .386 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.386DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .375 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2746,6 +2844,7 @@
 
 	"FACE HAST-C .391 DRILL": {
 		"prefix": "FHC.391DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .391 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2774,6 +2873,7 @@
 
 	"FACE HAST-C .391 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.391DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .391 HOLES)",
 		"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2802,7 +2902,8 @@
 
     "FACE HAST-C .394 DRILL": {
         "prefix": "FHC.394DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .391 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2830,7 +2931,8 @@
 
     "FACE HAST-C .394 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.394DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .391 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2858,6 +2960,7 @@
 
 	"FACE HAST-C .406 DRILL": {
 		"prefix": "FHC.406DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .406 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2886,6 +2989,7 @@
 
 	"FACE HAST-C .406 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.406DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .406 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2914,6 +3018,7 @@
 
 	"FACE HAST-C .422 DRILL": {
 		"prefix": "FHC.422DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .422 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2942,6 +3047,7 @@
 
 	"FACE HAST-C .422 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.422DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .422 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -2970,7 +3076,8 @@
 
     "FACE HAST-C .433 DRILL": {
         "prefix": "FHC.433DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .433 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -2998,7 +3105,8 @@
 
     "FACE HAST-C .433 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.433DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .433 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -3026,6 +3134,7 @@
 
 	"FACE HAST-C .437 DRILL": {
 		"prefix": "FHC.437DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .437 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3054,6 +3163,7 @@
 
 	"FACE HAST-C .437 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.437DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .437 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3082,7 +3192,8 @@
 
     "FACE HAST-C .453 DRILL": {
         "prefix": "FHC.453DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .453 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -3110,7 +3221,8 @@
 
     "FACE HAST-C .453 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.453DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .453 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -3138,7 +3250,8 @@
 
     "FACE HAST-C .4646 DRILL": {
         "prefix": "FHC.4646DRILL",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .4646 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -3166,7 +3279,8 @@
 
     "FACE HAST-C .4646 DRILL WITH Z-HEIGHT OFFSET": {
         "prefix": "FHC.4646DRILLW",
-        "body": [
+		"scope": "NC-Gcode, gcode",
+		"body": [
             "(C-DRILL .4646 HOLES)",
             "T5 M06 (T5 H05 #5 C-DRILL)",
             "G00 G90 G54 X0. Y0.",
@@ -3194,6 +3308,7 @@
 
 	"FACE HAST-C .472 DRILL": {
 		"prefix": "FHC.472DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .472 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3222,6 +3337,7 @@
 
 	"FACE HAST-C .472 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.472DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .472 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3250,6 +3366,7 @@
 
 	"FACE HAST-C .500 DRILL": {
 		"prefix": "FHC.500DRILL",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .500 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",
@@ -3278,6 +3395,7 @@
 
 	"FACE HAST-C .500 DRILL WITH Z-HEIGHT OFFSET": {
 		"prefix": "FHC.500DRILLW",
+		"scope": "NC-Gcode, gcode",
 		"body": [
 			"(C-DRILL .500 HOLES)",
 			"T5 M06 (T5 H05 #5 C-DRILL)",

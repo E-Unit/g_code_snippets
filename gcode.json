@@ -4328,6 +4328,14 @@
 		"description": "H186RANDOM .575 SPADE DRILL\n316ss 5.2 FEED 1308 RPM\nDuplex 3.5 FEED 872 RPM\nHast-C 1.0 FEED 595 RPM"
 	},
 	
+	".594 SPADE DRILL": {
+		"prefix": ".594SPADEDRILL",
+		"body": [
+			"#686= 0 ( T#686 H186RANDOM .594 SPADE DRILL )",
+		],
+		"description": "H186RANDOM .594 SPADE DRILL\n316ss 5.2 FEED 1266 RPM\nDuplex 3.4 FEED 844 RPM\nHast-C 1.0 FEED 576 RPM"
+	},
+	
 	".625 SPADE DRILL": {
 		"prefix": ".625SPADEDRILL",
 		"body": [

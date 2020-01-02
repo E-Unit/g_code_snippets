@@ -23,7 +23,7 @@
 			"G00 G80 Z#100 M05",
 			"M09",
 			"G28 G91 Z0.",
-			"$0"
+			"$0"	
 		],
 		"description": "FACE .059 DRILL"
 	},

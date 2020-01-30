@@ -1,5 +1,5 @@
 {
-	// Place your snippets for gcode here. 
+	// Place your snippets for gcode here.
 
 	".375 PIN FLIP OP": {
 		"prefix": "PINFLIPOP",
@@ -83,7 +83,7 @@
 		],
 		"description": "SIMPLE FLIP OP"
 	},
-	
+
 	"FACE C-DRILL PICK UP": {
 		"prefix": "FCPU",
 		"body": [
@@ -98,7 +98,7 @@
 		],
 		"description": "FACE C-DRILL PICK UP"
 	},
-		
+
 	"FACE BASE PROGRAM": {
 		"prefix": "FBASE",
 		"body": [
@@ -171,7 +171,7 @@
 			],
 			"description": "Face Base Program"
 	},
-	
+
 	"UNIFIN BASE PROGRAM": {
 		"prefix": "UBASE",
 		"body": [
@@ -303,22 +303,22 @@
 			"(REPEAT AS NECESSARY)",
 			"",
 			"}",
-			"${7:(PROBING. MUST HAVE ROUGH OFFSETS)",
-			"G116 T11 (T11 H11 SPINDLE PROBE)",
-			"G15 H2",
-			"G00 G90 X0. Y0.",
-			"G56 H11 Z2.0 M09",
-			"Z0.5",
-			"CALL O9023 PA=9 PS=1 PW=197 PZ=0",
-			"(WEB X)",
-			"Z0.5",
-			"X0.Y0.",
-			"CALL O9023 PA=4 PS=1 PW=197 PX=${8:X-WIDTH} PZ=-0.6",
-			"(WEB Y)",
-			"Z0.5",
-			"X0.Y0.",
-			"CALL O9023 PA=4 PS=1 PW=197 PY=${9:Y-WIDTH} PZ=-0.6",
-			"G30P3}",
+			"{(7:PROBING MUST HAVE ROUGH OFFSETS)",
+			"G116 T7 (T7 H11 SPINDLE PROBE)",
+			"G15 H2 (CHANGE H# IF USING H2 IN PROGRAM)",
+			"G00 G90 X0. Y0. (POS OVER PART TO BE PROBED)",
+			"G56 H11 Z2.0",
+			"CALL O9832 (TURN ON PROBE)",
+			"CALL O9810 Z=0.5 PF=200. (PROTECTED MOVE)",
+			"CALL O9811 PZ=0. PS=1 (SINGLE SURFACE PROBING)",
+			"CALL O9810 Z=2.0 PF=200. (PROTECTED MOVE RETRACT)",
+			"CALL O9810 PX=0. PY=0. PF=200. (PROTECTED MOVE)",
+			"(WEB X & Y)",
+			"CALL O9812 PS=1 PX=${8:X-WIDTH} PZ=-0.6 (PROBE WEB X)",
+			"CALL O9812 PS=1 PY=${9:Y-WIDTH} PZ=-0.6 (PROBE WEB Y)",
+			"CALL O9810 Z=2.0 PF=200. (PROTECTED MOVE RETRACT)",
+			"CALL O9830 (TURN PROBE OFF)",
+			"G30 P3 (FULL Z RETRACT)}",
 			"$0",
 			"",
 			"",
@@ -329,7 +329,7 @@
 		],
 		"description": "OKUMA BASE PROGRAM"
 	},
-	
+
 	"MARK": {
 		"prefix": "MARK",
 		"body": [
@@ -346,7 +346,7 @@
 		],
 		"description": "Face Mark Operation"
 	},
-	
+
 	"MARK WITH Z-HEIGHT OFFSET": {
 		"prefix": "MARKW",
 		"body": [
@@ -381,7 +381,7 @@
 		],
 		"description": "Face SCRIBE LINE"
 	},
-	
+
 	"FACE SCRIBE LINE WITH Z-HEIGHT OFFSET": {
 		"prefix": "FSCRIBEW",
 		"body": [
@@ -575,7 +575,7 @@
 		],
 		"description": "FACE ROUGH AND FINISH CALLUP\nROUGH WITH H81\nFINISH WITH H91\nSTARTING @ 0. @ 90. DEG APART"
 	},
-	
+
 	"ROUGH H81 FINISH H90 CALL-UP STARTING  @ 45.": {
 		"prefix": "FRF819045",
 		"body": [
@@ -633,7 +633,7 @@
 		],
 		"description": "FACE ROUGH AND FINISH CALLUP\nROUGH WITH H81\nFINISH WITH H91\nSTARTING @ 45. @ 90. DEG APART"
 	},
-	
+
 	"SINGLE CALL-UP STARTING @ 0.": {
 		"prefix": "FACESINGLECALLUP0",
 		"body": [
@@ -720,7 +720,7 @@
 		],
 		"description": "FACE SINGLE CALL UP WITHOUT ROTATION"
 	},
-	
+
 	"SINGLE FACE ROUGH & FINISH CALL UP": {
 		"prefix": "FRFCALL",
 		"body": [
@@ -739,7 +739,7 @@
 		],
 		"description": "FACE SINGLE ROUGH & FINISH CALL-UP WITH ROTATION"
 	},
-	
+
 	"FACE C-BORE MACRO": {
 		"prefix": "FC-BORE",
 		"body": [
@@ -953,7 +953,7 @@
 		],
 		"description": "FACE O-RING GROOVE MACRO SUB PROGRAM"
 	},
-	
+
 	"FACE SPADE DRILL MACRO": {
 		"prefix": "SDRILL",
 		"body": [
@@ -1371,9 +1371,9 @@
 		"description": "FACE I.D. PLUNGE SLOTS"
 	},
 
-	
+
 	// FACE NPT OPS #######################################################################################################################
-	
+
 
 	"FACE 1/8 NPT CALL UP": {
 		"prefix": "F125NPT",
@@ -1634,7 +1634,7 @@
 		],
 		"description": "FACE 3/8 NPT CALLUP_SUB"
 	},
-	
+
 	"FACE 1/2 NPT CALL UP": {
 		"prefix": "F500NPTCALL",
 		"body": [
@@ -1720,7 +1720,7 @@
 		],
 		"description": "FACE 3/4 NPT CALL UP"
 	},
-	
+
 	"FACE 3/4 NPT OP SUB": {
 		"prefix": "F750NPT_SUB",
 		"body": [
@@ -1778,7 +1778,7 @@
 		],
 		"description": "FACE 3/4 NPT OP SUB"
 	},
-	
+
 	// FACE FLAT BOTTOM HOLE OPERATIONS ##################################################################################################
 
 	"FACE .224 FLAT BOTTOM HOLES": {
@@ -1840,7 +1840,7 @@
 		],
 		"description": "FACE .224 FLAT BOTTOM HOLES WITH Z-HEIGHT OFFSET"
 	},
-	
+
 	"FACE .250 FLAT BOTTOM HOLES": {
 		"prefix": "F.250FLTBTM",
 		"body": [
@@ -1930,7 +1930,7 @@
 		],
 		"description": "FACE .2559 FLAT BOTTOM HOLES WITH Z-HEIGHT OFFSET"
 	},
-	
+
 	"FACE .4212 FLT BTM HOLES": {
 		"prefix": "F.4212FLTBTM",
 		"body": [
@@ -2051,7 +2051,7 @@
 		],
 		"description": "RAD C-DRILL PICK UP"
 	},
-	
+
 	"RAD C-DRILL PICK UP WITH Z-HEIGHT OFFSET": {
 		"prefix": "RCPUW",
 		"body": [
@@ -2068,7 +2068,7 @@
 		],
 		"description": "RAD C-DRILL PICK UP WITH Z-HEIGHT OFFSET"
 	},
-	
+
 	"RAD MILLED HOLES MACRO": {
 		"prefix": "RC-BORE",
 		"body": [
@@ -2213,7 +2213,7 @@
 			""
 		],
 		"description": "RADIAL MILLED SLOTS MACRO SUB PROG"
-	},	
+	},
 
 	"RAD CLOSED SLOT MACRO": {
 		"prefix": "RCSM",
@@ -2774,10 +2774,10 @@
 		],
 		"description": "RAD THREAD MILL MACRO SUB"
 	},
-	
+
 	// RAD NPT OPS ######################################################################################################################################
-	
-	
+
+
 	"RAD 1/8 NPT OP": {
 		"prefix": "R125NPT",
 		"body": [
@@ -3056,7 +3056,7 @@
 		],
 		"description": "RAD 3/8 NPT SUB"
 	},
-	
+
 	"RAD 1/2 NPT": {
 		"prefix": "R500NPT",
 		"body": [
@@ -3092,7 +3092,7 @@
 		],
 		"description": "RAD .500 NPT"
 	},
-	
+
 	"RAD 1/2 NPT SUB": {
 		"prefix": "R500NPT_SUB",
 		"body": [
@@ -3152,7 +3152,7 @@
 		],
 		"description": "RAD .500 NPT SUB"
 	},
-			
+
 	"RAD DUPLEX .500 NPT": {
 		"prefix": "RD500NPT",
 		"body": [
@@ -3248,7 +3248,7 @@
 		],
 		"description": "RAD DUPLEX .500 NPT SUB"
 	},
-	
+
 	"RAD 3/4 NPT": {
 		"prefix": "R750NPT",
 		"body": [
@@ -3320,7 +3320,7 @@
 		],
 		"description": "RAD 3/4 NPT OP WITH Z-HEIGHT OFFSET"
 	},
-	
+
 	"RAD 3/4 NPT OP SUB": {
 		"prefix": "R750NPT_SUB",
 		"body": [
@@ -3455,7 +3455,7 @@
 			""
 		],
 		"description": "VF6-TR 1/8 NPT CALL UP SUB PROGRAM"
-	},	
+	},
 
 	"VF6-TR 1/4 NPT CALL UP": {
 		"prefix": "TR1/4CALLUP",
@@ -3520,7 +3520,7 @@
 		],
 		"description": "VF6-TR 1/4 NPT CALL UP SUB PROGRAM"
 	},
-	
+
 	"VF6-TR 3/8 NPT CALL UP": {
 		"prefix": "TR3/8CALLUP",
 		"body": [
@@ -3675,7 +3675,7 @@
 		],
 		"description": "VF6-TR 1/2 NPT CALL UP SUB PROGRAM"
 	},
-	
+
 	"VF6-TR 3/4 NPT CALL UP": {
 		"prefix": "TR3/4CALLUP",
 		"body": [
@@ -3886,7 +3886,7 @@
 		],
 		"description": "UMC-750 1/4 NPT CALL UP SUB PROGRAM"
 	},
-	
+
 	"UMC-750 3/8 NPT CALL UP": {
 		"prefix": "UMC3/8CALLUP",
 		"body": [
@@ -3980,7 +3980,7 @@
 		],
 		"description": "UMC 1/2 NPT CALL UP"
 	},
-	
+
 	"UMC-750 1/2 NPT CALL UP SUB PROGRAM": {
 		"prefix": "UMC1/2CALLUP_SUB",
 		"body": [
@@ -4149,7 +4149,7 @@
 		],
 		"description": ".156 CARB MILL"
 	},
-	
+
 	"#571 H71 .187 CARB MILL": {
 		"prefix": "H71CARB",
 		"body": [
@@ -4173,7 +4173,7 @@
 		],
 		"description": ".3125 CARB MILL"
 	},
-	
+
 	"#578 H78 .375 CARB MILL": {
 		"prefix": "H78CARB",
 		"body": [
@@ -4261,7 +4261,7 @@
 		],
 		"description": "H186 RANDOM TOOL"
 	},
-	
+
 	// SPADE DRILLS
 
 	".3125 SPADE DRILL": {
@@ -4303,7 +4303,7 @@
 		],
 		"description": "H51 .531 SPADE DRILL\n316ss 5.3 FEED 1413 RPM\nDUPLEX 3.6 FEED 942 RPM\nHAST-C 1.1 FEED 630 RPM\nSTEEL 15. FEED 2250 RPM"
 	},
-	
+
 	".547 SPADE DRILL": {
 		"prefix": ".547SPADEDRILL",
 		"body": [
@@ -4311,7 +4311,7 @@
 		],
 		"description": "H64 .547 SPADE DRILL\n316ss 5.3 FEED 1375 RPM\nSuper Duplex 3.1 FEED 916 RPM"
 	},
-	
+
 	".562 SPADE DRILL": {
 		"prefix": ".562SPADEDRILL",
 		"body": [
@@ -4319,7 +4319,7 @@
 		],
 		"description": "H27 .562 SPADE DRILL\n316ss 5.2 FEED 1336 RPM\nDuplex 3.4 FEED 890 RPM"
 	},
-	
+
 	".575 SPADE DRILL": {
 		"prefix": ".575SPADEDRILL",
 		"body": [
@@ -4327,7 +4327,7 @@
 		],
 		"description": "H186RANDOM .575 SPADE DRILL\n316ss 5.2 FEED 1308 RPM\nDuplex 3.5 FEED 872 RPM\nHast-C 1.0 FEED 595 RPM"
 	},
-	
+
 	".594 SPADE DRILL": {
 		"prefix": ".594SPADEDRILL",
 		"body": [
@@ -4335,7 +4335,7 @@
 		],
 		"description": "H186RANDOM .594 SPADE DRILL\n316ss 5.2 FEED 1266 RPM\nDuplex 3.4 FEED 844 RPM\nHast-C 1.0 FEED 576 RPM"
 	},
-	
+
 	".625 SPADE DRILL": {
 		"prefix": ".625SPADEDRILL",
 		"body": [
@@ -4343,7 +4343,7 @@
 		],
 		"description": "H52 .625 SPADE DRILL\n316ss 5.2 FEED 1203 RPM\nDuplex 3.4 FEED 802 RPM\n Hast-C 1.5 FEED 640 RPM"
 	},
-	
+
 	".656 SPADE DRILL": {
 		"prefix": ".656SPADEDRILL",
 		"body": [
@@ -4351,7 +4351,7 @@
 		],
 		"description": "H182 .656 SPADE DRILL\n316ss 5.1 FEED 1146 RPM\nDuplex 3.4 FEED 764 RPM\nHast-C 1.1 FEED 630 RPM"
 	},
-	
+
 	".688 SPADE DRILL": {
 		"prefix": ".688SPADEDRILL",
 		"body": [
@@ -4375,7 +4375,7 @@
 		],
 		"description": "H54 .750 SPADE DRILL\n316ss 4.9 FEED 1003 RPM\nDUPLEX 3.3 FEED 668 RPM\nHAST-C 1.5 FEED 500 RPM"
 	},
-	
+
 	".812 SPADE DRILL": {
 		"prefix": ".812SPADEDRILL",
 		"body": [
@@ -4407,7 +4407,7 @@
 		],
 		"description": "H182 .866 SPADE DRILL\n316ss 4.8 FEED 868 RPM\nDUPLEX 3.2 FEED 579 RPM\nHAST-C 1.0 FEED 395 RPM"
 	},
-	
+
 	".875 SPADE DRILL": {
 		"prefix": ".875SPADEDRILL",
 		"body": [
@@ -4423,7 +4423,7 @@
 		],
 		"description": "H186 RANDOM .906 SPADE DRILL\n316SS 4.8 FEED 830 RPM\nDUPLEX 3.2 FEED 553 RPM\nHAST-C 1. FEED 380 RPM"
 	},
-		
+
 	"1.000 SPADE DRILL": {
 		"prefix": "1.000SPADEDRILL",
 		"body": [
@@ -4439,9 +4439,9 @@
 		],
 		"description": "H186 1.125 SPADE DRILL\n316SS 4.4 FEED 668 RPM\nDUPLEX 3.0 FEED 446 RPM\nHAST-C 0.7 FEED 310 RPM"
 	},
-	
+
 	// NPT THREAD MILLS
-	
+
 	"1/2 & 3/4 NPT THREAD MILL": {
 		"prefix": "H150THREADMILL",
 		"body": [
@@ -4449,6 +4449,6 @@
 		],
 		"description": "1/2 & 3/4 NPT THREAD MILL"
 	}
-		
+
 }
 

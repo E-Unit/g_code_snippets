@@ -39,7 +39,7 @@
         ],
         "description": "RAD SUPER DUPLEX 4-40 FORM TAP"
     },
-   
+
     "RAD SUPER DUPLEX 4-40 FORM TAP WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD440FTW",
         "scope": "NC-Gcode, gcode",
@@ -432,7 +432,7 @@
         ],
         "description": "RAD SUPER DUPLEX 6-32 CUT TAP"
     },
-    
+
     "RAD SUPER DUPLEX 6-32 CUT TAP WITH Z-HEIGHT OFFSET": {
         "prefix": "RSD632CTW",
         "scope": "NC-Gcode, gcode",
@@ -1327,7 +1327,7 @@
         ],
         "description": "RAD SUPER DUPLEX 1/4-20 FORM TAP WITH Z-HEIGHT OFFSET"
     },
-    
+
     "RAD SUPER DUPLEX 1/4-20 CUT TAP": {
         "prefix": "RSD.250CT",
         "scope": "NC-Gcode, gcode",
@@ -2159,7 +2159,7 @@
         ],
         "description": "RAD SUPER DUPLEX 1/2-20 CUT TAP WITH Z-HEIGHT OFFSET"
     },
-    
+
     "RAD SUPER DUPLEX 5/8-11 CUT TAP": {
         "prefix": "RSD.625CT",
         "scope": "NC-Gcode, gcode",
@@ -2379,10 +2379,10 @@
             "M09",
             "",
             "(DRILL M3x0.5 FORM TAP HOLES)",
-            "T#659 M06 ( T#659 H159 .109 DRILL )",
+            "T#684 M06 ( T#684 H184RANDOM .109 DRILL )",
             "G00 G90 G57",
             "S880 M03",
-            "G43 H159 Z#100 M08",
+            "G43 H184 Z#100 M08",
             "G83 G98 Z$4 R0.1 Q0.05 F0.8 L0",
             "A$1 X$2 Y${3:0.}",
             "G00 G80 Z#100 M05",
@@ -3064,7 +3064,7 @@
             "G00 G90 G57",
             "S120",
             "G43 H178 Z#100 M09",
-            "G84 G98 Z [ $4 - $6 ] R [ $4 + 0.1 Q0.1 ] F4.7244 L0",
+            "G84 G98 Z [ $4 - $6 ] R [ $4 + 0.1 ] F4.7244 L0",
             "A$1 X$2 Y${3:0.}",
             "G00 G80 Z#100 M05",
             "M09",
@@ -3589,7 +3589,7 @@
         ],
         "description": "RAD SUPER DUPLEX M10x1.5 CUT TAP"
     },
-    
+
     "RAD SUPER DUPLEX M12x1.75 FORM TAP": {
         "prefix": "RSDM12FT",
         "scope": "NC-Gcode, gcode",

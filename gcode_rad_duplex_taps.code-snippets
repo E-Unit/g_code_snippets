@@ -2096,7 +2096,7 @@
         ],
         "description": "RAD DUPLEX 1/2-13 FORM TAP WITH Z-HEIGHT OFFSET"
     },
-    
+
     "RAD DUPLEX 1/2-13 CUT TAP": {
         "prefix": "RD.500CT",
         "scope": "NC-Gcode, gcode",
@@ -2520,10 +2520,10 @@
             "M09",
             "",
             "(DRILL M3x0.5 FORM TAP HOLES)",
-            "T#659 M06 ( T#659 H159 .109 DRILL )",
+            "T#684 M06 ( T#684 H184RANDOM .109 DRILL )",
             "G00 G90 G57",
             "S990 M03",
-            "G43 H159 Z#100 M08",
+            "G43 H184 Z#100 M08",
             "G83 G98 Z$4 R0.1 Q0.05 F1. L0",
             "A$1 X$2 Y${3:0.}",
             "G00 G80 Z#100 M05",
@@ -3245,7 +3245,7 @@
             "G00 G90 G57",
             "S160",
             "G43 H178 Z#100 M09",
-            "G84 G98 Z [ $4 - $6 ] R [ $4 + 0.1 Q0.1 ] F6.2992 L0",
+            "G84 G98 Z [ $4 - $6 ] R [ $4 + 0.1 ] F6.2992 L0",
             "A$1 X$2 Y${3:0.}",
             "G00 G80 Z#100 M05",
             "M09",
